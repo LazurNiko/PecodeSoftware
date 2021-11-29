@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php",
+  "env": {
+    "login_url": "/greet.php page",
+    "portal_url": "/qa-portal"
+  }
+}
