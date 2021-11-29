@@ -1,9 +1,9 @@
 describe('', () => {
 
    it('', () => {
-    cy.visit('portal_url');
+    cy.visit('/qa-portal');
     cy.get('[placeholder="Username"]')
-      .type('')
+      .type('Niko')
    })
 
    
