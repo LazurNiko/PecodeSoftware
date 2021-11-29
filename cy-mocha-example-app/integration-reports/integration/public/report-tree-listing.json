@@ -1,0 +1,154 @@
+{
+  "path": "integration-reports/integration/public",
+  "name": "public",
+  "children": [
+    {
+      "path": "integration-reports/integration/public/assets",
+      "name": "assets",
+      "children": [
+        {
+          "path": "integration-reports/integration/public/assets/MaterialIcons-Regular.woff",
+          "name": "MaterialIcons-Regular.woff",
+          "size": 57620,
+          "extension": ".woff",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/MaterialIcons-Regular.woff2",
+          "name": "MaterialIcons-Regular.woff2",
+          "size": 44300,
+          "extension": ".woff2",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/app.css",
+          "name": "app.css",
+          "size": 82777,
+          "extension": ".css",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/app.js",
+          "name": "app.js",
+          "size": 369518,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-light-webfont.woff",
+          "name": "roboto-light-webfont.woff",
+          "size": 25772,
+          "extension": ".woff",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-light-webfont.woff2",
+          "name": "roboto-light-webfont.woff2",
+          "size": 19508,
+          "extension": ".woff2",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-medium-webfont.woff",
+          "name": "roboto-medium-webfont.woff",
+          "size": 26292,
+          "extension": ".woff",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-medium-webfont.woff2",
+          "name": "roboto-medium-webfont.woff2",
+          "size": 19944,
+          "extension": ".woff2",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-regular-webfont.woff",
+          "name": "roboto-regular-webfont.woff",
+          "size": 26280,
+          "extension": ".woff",
+          "type": "file"
+        },
+        {
+          "path": "integration-reports/integration/public/assets/roboto-regular-webfont.woff2",
+          "name": "roboto-regular-webfont.woff2",
+          "size": 19868,
+          "extension": ".woff2",
+          "type": "file"
+        }
+      ],
+      "size": 691879,
+      "type": "directory"
+    },
+    {
+      "path": "integration-reports/integration/public/report.html",
+      "name": "report.html",
+      "size": 11733,
+      "extension": ".html",
+      "type": "file"
+    },
+    {
+      "path": "integration-reports/integration/public/report.json",
+      "name": "report.json",
+      "size": 10185,
+      "extension": ".json",
+      "type": "file"
+    },
+    {
+      "path": "integration-reports/integration/public/screenshots",
+      "name": "screenshots",
+      "children": [
+        {
+          "path": "integration-reports/integration/public/screenshots/examples",
+          "name": "examples",
+          "children": [
+            {
+              "path": "integration-reports/integration/public/screenshots/examples/Precode.spec.js",
+              "name": "Precode.spec.js",
+              "children": [
+                {
+                  "path": "integration-reports/integration/public/screenshots/examples/Precode.spec.js/Registered user login -- Registered user can login with incorrect password (failed).png",
+                  "name": "Registered user login -- Registered user can login with incorrect password (failed).png",
+                  "size": 269911,
+                  "extension": ".png",
+                  "type": "file"
+                }
+              ],
+              "size": 269911,
+              "type": "directory"
+            }
+          ],
+          "size": 269911,
+          "type": "directory"
+        }
+      ],
+      "size": 269911,
+      "type": "directory"
+    },
+    {
+      "path": "integration-reports/integration/public/videos",
+      "name": "videos",
+      "children": [
+        {
+          "path": "integration-reports/integration/public/videos/examples",
+          "name": "examples",
+          "children": [
+            {
+              "path": "integration-reports/integration/public/videos/examples/Precode.spec.js.mp4",
+              "name": "Precode.spec.js.mp4",
+              "size": 751300,
+              "extension": ".mp4",
+              "type": "file"
+            }
+          ],
+          "size": 751300,
+          "type": "directory"
+        }
+      ],
+      "size": 751300,
+      "type": "directory"
+    }
+  ],
+  "size": 1735008,
+  "type": "directory"
+}

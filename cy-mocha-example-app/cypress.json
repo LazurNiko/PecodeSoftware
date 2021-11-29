@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://www.pecodesoftware.com",
+  "reporterOptions": {
+    "reportDir": "integration-reports/integration/reports/mocha",
+    "quiet": true,
+    "html": false,
+    "overwrite": false,
+    "json": true
+  },
+  "videosFolder": "integration-reports/integration/public/videos",
+  "screenshotsFolder": "integration-reports/integration/public/screenshots",
+  "videoCompression": false,
+  "reporter": "mochawesome",
+  "browser": "electron",
+  "chromeWebSecurity": false
+}
