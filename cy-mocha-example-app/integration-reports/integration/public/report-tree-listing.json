@@ -83,14 +83,14 @@
     {
       "path": "integration-reports/integration/public/report.html",
       "name": "report.html",
-      "size": 11733,
+      "size": 11730,
       "extension": ".html",
       "type": "file"
     },
     {
       "path": "integration-reports/integration/public/report.json",
       "name": "report.json",
-      "size": 10185,
+      "size": 10182,
       "extension": ".json",
       "type": "file"
     },
@@ -109,20 +109,20 @@
                 {
                   "path": "integration-reports/integration/public/screenshots/examples/Precode.spec.js/Registered user login -- Registered user can login with incorrect password (failed).png",
                   "name": "Registered user login -- Registered user can login with incorrect password (failed).png",
-                  "size": 269911,
+                  "size": 270295,
                   "extension": ".png",
                   "type": "file"
                 }
               ],
-              "size": 269911,
+              "size": 270295,
               "type": "directory"
             }
           ],
-          "size": 269911,
+          "size": 270295,
           "type": "directory"
         }
       ],
-      "size": 269911,
+      "size": 270295,
       "type": "directory"
     },
     {
@@ -136,19 +136,19 @@
             {
               "path": "integration-reports/integration/public/videos/examples/Precode.spec.js.mp4",
               "name": "Precode.spec.js.mp4",
-              "size": 751300,
+              "size": 747262,
               "extension": ".mp4",
               "type": "file"
             }
           ],
-          "size": 751300,
+          "size": 747262,
           "type": "directory"
         }
       ],
-      "size": 751300,
+      "size": 747262,
       "type": "directory"
     }
   ],
-  "size": 1735008,
+  "size": 1731348,
   "type": "directory"
 }
