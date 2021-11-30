@@ -109,20 +109,20 @@
                 {
                   "path": "integration-reports/integration/public/screenshots/examples/Precode.spec.js/Registered user login -- Registered user can login with incorrect password (failed).png",
                   "name": "Registered user login -- Registered user can login with incorrect password (failed).png",
-                  "size": 270132,
+                  "size": 270080,
                   "extension": ".png",
                   "type": "file"
                 }
               ],
-              "size": 270132,
+              "size": 270080,
               "type": "directory"
             }
           ],
-          "size": 270132,
+          "size": 270080,
           "type": "directory"
         }
       ],
-      "size": 270132,
+      "size": 270080,
       "type": "directory"
     },
     {
@@ -136,19 +136,19 @@
             {
               "path": "integration-reports/integration/public/videos/examples/Precode.spec.js.mp4",
               "name": "Precode.spec.js.mp4",
-              "size": 823021,
+              "size": 888080,
               "extension": ".mp4",
               "type": "file"
             }
           ],
-          "size": 823021,
+          "size": 888080,
           "type": "directory"
         }
       ],
-      "size": 823021,
+      "size": 888080,
       "type": "directory"
     }
   ],
-  "size": 1806948,
+  "size": 1871955,
   "type": "directory"
 }

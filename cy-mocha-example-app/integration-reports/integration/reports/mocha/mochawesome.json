@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 1,
-    "start": "2021-11-30T13:45:53.486Z",
-    "end": "2021-11-30T13:46:04.572Z",
-    "duration": 11086,
+    "start": "2021-11-30T13:52:42.556Z",
+    "end": "2021-11-30T13:52:55.298Z",
+    "duration": 12742,
     "testsRegistered": 6,
     "passPercent": 83.33333333333334,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b30402a5-bbae-4e0e-b4af-4e508b40ff39",
+      "uuid": "8919f28c-3088-4ab3-9ebe-eb38218a81e9",
       "title": "",
       "fullFile": "cypress/integration/examples/Precode.spec.js",
       "file": "cypress/integration/examples/Precode.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9db66e6c-9bc5-4929-9131-7df61cad22e4",
+          "uuid": "7de0dbee-43a4-4969-8945-5e53c005a34f",
           "title": "Login form should exist",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login form has 'Username', 'Password' fields and 'Submit' button",
               "fullTitle": "Login form should exist Login form has 'Username', 'Password' fields and 'Submit' button",
               "timedOut": null,
-              "duration": 1166,
+              "duration": 1655,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,15 +47,15 @@
               "context": null,
               "code": "cy.visit('/qa-portal');\ncy.get('.wrapper').should('be.visible');\ncy.get('#logomini').should('have.attr', 'src', 'https://pecode-software.web.app/static/media/icon-logo.f8576d05.svg');\ncy.get('center>h1').contains('QA Portal Login');\ncy.get('form')\n    .should('be.visible')\n    .within(function () {\n    cy.get('.form-group>.form-control')\n        .eq(0)\n        .should('have.attr', 'type', 'text');\n    cy.get('.form-group>.form-control')\n        .eq(1)\n        .should('have.attr', 'type', 'password');\n    cy.get('.form-group>input')\n        .eq(2)\n        .should('have.attr', 'type', 'submit');\n});",
               "err": {},
-              "uuid": "8e97010e-2103-455f-bc53-0cf571fe0135",
-              "parentUUID": "9db66e6c-9bc5-4929-9131-7df61cad22e4",
+              "uuid": "15394744-4456-42e8-b35c-0246d6def640",
+              "parentUUID": "7de0dbee-43a4-4969-8945-5e53c005a34f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [
             {
-              "uuid": "39477d8c-0542-4cca-9f2c-00d365af0f48",
+              "uuid": "d8d3597f-e64f-446d-8f6c-8d4f371b7dad",
               "title": "Unsuccessful login",
               "fullFile": "",
               "file": "",
@@ -66,7 +66,7 @@
                   "title": "Unregistered user shouldn't be able to login",
                   "fullTitle": "Login form should exist Unsuccessful login Unregistered user shouldn't be able to login",
                   "timedOut": null,
-                  "duration": 1013,
+                  "duration": 1034,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -75,8 +75,8 @@
                   "context": null,
                   "code": "cy.get('[placeholder=\"Username\"]')\n    .type(user.username);\ncy.get('[placeholder=\"Password\"]')\n    .type(user.password);\ncy.get('[type=\"submit\"]')\n    .click();\ncy.contains('.has-error > .help-block', 'No account found with that username.')\n    .should('be.visible');",
                   "err": {},
-                  "uuid": "cb12eadb-ba4c-4a98-affe-045ab023e91b",
-                  "parentUUID": "39477d8c-0542-4cca-9f2c-00d365af0f48",
+                  "uuid": "75306fd7-1214-42e7-a02f-fc7b34ede316",
+                  "parentUUID": "d8d3597f-e64f-446d-8f6c-8d4f371b7dad",
                   "isHook": false,
                   "skipped": false
                 },
@@ -84,7 +84,7 @@
                   "title": "User not be able to login with 'Username' blank field",
                   "fullTitle": "Login form should exist Unsuccessful login User not be able to login with 'Username' blank field",
                   "timedOut": null,
-                  "duration": 794,
+                  "duration": 738,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -93,8 +93,8 @@
                   "context": null,
                   "code": "cy.get('[placeholder=\"Username\"]')\n    .clear();\ncy.get('[placeholder=\"Password\"]')\n    .type(user.password);\ncy.get('[type=\"submit\"]')\n    .click();\ncy.contains('.has-error > .help-block', 'Please enter username.')\n    .should('be.visible');",
                   "err": {},
-                  "uuid": "3fb87264-33fc-446c-8883-e8259ef25111",
-                  "parentUUID": "39477d8c-0542-4cca-9f2c-00d365af0f48",
+                  "uuid": "5e636c9a-2d3a-4141-b4e1-18d6f3a2ba73",
+                  "parentUUID": "d8d3597f-e64f-446d-8f6c-8d4f371b7dad",
                   "isHook": false,
                   "skipped": false
                 },
@@ -102,7 +102,7 @@
                   "title": "User not be able to login with 'Username' blank field",
                   "fullTitle": "Login form should exist Unsuccessful login User not be able to login with 'Username' blank field",
                   "timedOut": null,
-                  "duration": 826,
+                  "duration": 783,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -111,40 +111,40 @@
                   "context": null,
                   "code": "cy.get('[placeholder=\"Username\"]')\n    .type(user.username);\ncy.get('[placeholder=\"Password\"]')\n    .clear();\ncy.get('[type=\"submit\"]')\n    .click();\ncy.contains('.has-error > .help-block', 'Please enter your password.')\n    .should('be.visible');",
                   "err": {},
-                  "uuid": "91a25b81-147b-4c77-9cd9-cce6b121e3b6",
-                  "parentUUID": "39477d8c-0542-4cca-9f2c-00d365af0f48",
+                  "uuid": "65ec0e4e-a832-48c7-a071-051258c8e72d",
+                  "parentUUID": "d8d3597f-e64f-446d-8f6c-8d4f371b7dad",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "cb12eadb-ba4c-4a98-affe-045ab023e91b",
-                "3fb87264-33fc-446c-8883-e8259ef25111",
-                "91a25b81-147b-4c77-9cd9-cce6b121e3b6"
+                "75306fd7-1214-42e7-a02f-fc7b34ede316",
+                "5e636c9a-2d3a-4141-b4e1-18d6f3a2ba73",
+                "65ec0e4e-a832-48c7-a071-051258c8e72d"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 2633,
+              "duration": 2555,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             }
           ],
           "passes": [
-            "8e97010e-2103-455f-bc53-0cf571fe0135"
+            "15394744-4456-42e8-b35c-0246d6def640"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1166,
+          "duration": 1655,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "8c5ef227-f51a-4229-9f5e-a29755fcd1e3",
+          "uuid": "5506bdf5-c2e7-4387-8f88-95be2d712131",
           "title": "Registered user login",
           "fullFile": "",
           "file": "",
@@ -155,7 +155,7 @@
               "title": "Registered user should be able to login",
               "fullTitle": "Registered user login Registered user should be able to login",
               "timedOut": null,
-              "duration": 1354,
+              "duration": 1566,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -164,8 +164,8 @@
               "context": null,
               "code": "cy.login();",
               "err": {},
-              "uuid": "88fe8a73-9f4d-48fa-a191-092d84488797",
-              "parentUUID": "8c5ef227-f51a-4229-9f5e-a29755fcd1e3",
+              "uuid": "7900bd02-4d08-4b2f-b29f-313ac1bc4968",
+              "parentUUID": "5506bdf5-c2e7-4387-8f88-95be2d712131",
               "isHook": false,
               "skipped": false
             },
@@ -173,7 +173,7 @@
               "title": "Registered user can login with incorrect password",
               "fullTitle": "Registered user login Registered user can login with incorrect password",
               "timedOut": null,
-              "duration": 5641,
+              "duration": 6307,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -186,22 +186,22 @@
                 "estack": "AssertionError: Timed out retrying: Expected not to find content: 'The password you entered was not valid.' within the selector: '.has-error > .help-block' but continuously found it.\n    at Context.eval (https://www.pecodesoftware.com/__cypress/tests?p=cypress/integration/examples/Precode.spec.js:75:14)",
                 "diff": null
               },
-              "uuid": "42f77dac-2313-417a-a214-6b07b91a0ee5",
-              "parentUUID": "8c5ef227-f51a-4229-9f5e-a29755fcd1e3",
+              "uuid": "891fedd9-32e9-4741-9a9e-f7b88efe292a",
+              "parentUUID": "5506bdf5-c2e7-4387-8f88-95be2d712131",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "88fe8a73-9f4d-48fa-a191-092d84488797"
+            "7900bd02-4d08-4b2f-b29f-313ac1bc4968"
           ],
           "failures": [
-            "42f77dac-2313-417a-a214-6b07b91a0ee5"
+            "891fedd9-32e9-4741-9a9e-f7b88efe292a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 6995,
+          "duration": 7873,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
