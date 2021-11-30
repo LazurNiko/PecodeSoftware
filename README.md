@@ -1,2 +1,0 @@
-# PecodeSoftware
-Test task
